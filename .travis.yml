@@ -5,14 +5,11 @@ language: cpp
 compiler: gcc
 
 before_install:
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
+  - sudo apt-get update
+  - sudo apt-get upgrade -y
 
 install: 
-  - sudo apt-get install -y axel xz-utils
-  - sudo apt-get install -qq g++-7 
-  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 90
-  - sudo bash -c "curl -L https://github.com/efidroid/files/releases/download/misc/libfl.so.2 > /usr/lib/x86_64-linux-gnu/libfl.so.2"
+  - sudo apt-get install -y axel xz-utilsgit-core gnupg flex bison gperf libsdl-dev libesd0-dev libwxgtk2.6-dev build-essential zip curl libncurses5-dev zlib1g-dev ia32-libs lib32z1-dev lib32ncurses5-dev gcc-multilib g++-multilib
 
 script:
   - bash travis.sh
