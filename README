@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/IkerST/kernel_motorola_msm8916-ubtouch.svg?branch=halium-7.1)](https://travis-ci.com/IkerST/kernel_motorola_msm8916-ubtouch)
+
         Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
