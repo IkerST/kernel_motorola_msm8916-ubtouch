@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/IkerST/kernel_motorola_msm8916-ubtouch.svg?branch=halium-7.1)](https://travis-ci.com/IkerST/kernel_motorola_msm8916-ubtouch)
+[![Build Status](https://semaphoreci.com/api/v1/ikerst/kernel_motorola_msm8916-ubtouch/branches/halium-7-1/badge.svg)](https://semaphoreci.com/ikerst/kernel_motorola_msm8916-ubtouch)
 
         Linux kernel release 3.x <http://kernel.org/>
 
