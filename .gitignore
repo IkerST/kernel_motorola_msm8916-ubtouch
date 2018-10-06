@@ -94,3 +94,9 @@ x509.genkey
 
 # travis configuration file
 !.travis.yml
+
+# toolchains
+toolchain/
+
+# virtualenv
+virtualenv/
